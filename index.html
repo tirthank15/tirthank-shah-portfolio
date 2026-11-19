@@ -396,6 +396,9 @@ footer .fine{margin-top:40px; font-family:var(--font-mono); font-size:.72rem; co
         <span class="chip">Microsoft Copilot</span>
         <span class="chip">ChatGPT &amp; Claude</span>
         <span class="chip">Applied ML Forecasting</span>
+        <span class="chip">RAG &amp; LLM Evaluation (coursework)</span>
+        <span class="chip">LangGraph Agents (coursework)</span>
+        <span class="chip">Docker, Flask &amp; Streamlit (coursework)</span>
       </div>
     </div>
     <div class="skill-card">
@@ -441,6 +444,24 @@ footer .fine{margin-top:40px; font-family:var(--font-mono); font-size:.72rem; co
       <p>Analyzed 1,898 orders across 178 restaurants to quantify delivery-time risk and revenue, with operational recommendations.</p>
       <div class="metric">10.54% of orders over 60 min &middot; $6,166 net revenue modeled</div>
     </article>
+    <article class="card academic">
+      <span class="tag">Academic Project</span>
+      <h3>Medical Assistant - RAG question answering over the Merck Manual</h3>
+      <p>Built a Retrieval-Augmented Generation prototype over a 4,114-page clinical reference (8,463 chunks, gte-large embeddings, ChromaDB, gpt-4o-mini). Compared it against an ungrounded Mistral-7B baseline and scored answers with a separate gpt-4o judge for groundedness and relevance.</p>
+      <div class="metric">5/5 groundedness and relevance on all 5 test queries &middot; prototype, not clinician-validated</div>
+    </article>
+    <article class="card academic">
+      <span class="tag">Academic Project</span>
+      <h3>Last-Mile Logistics - multi-agent delivery exception handling</h3>
+      <p>Built a LangGraph multi-agent proof of concept that triages delivery exceptions, picks a resolution, escalates by policy, and drafts customer messages, with critic agents, a prompt-injection guardrail, and LangSmith tracing. Evaluated on 10 curated scenarios, with the two failures documented.</p>
+      <div class="metric">80% task completion &middot; 100% escalation accuracy &middot; 4.8/5 coherence</div>
+    </article>
+    <article class="card academic">
+      <span class="tag">Academic Project</span>
+      <h3>SuperKart - retail sales forecasting, containerized</h3>
+      <p>Trained and tuned Random Forest and XGBoost regressors on 8,763 product-store records, then packaged the best pipeline behind a Flask API (single and batch endpoints) with a Streamlit front end, as separate Docker containers in a GitHub Codespace.</p>
+      <div class="metric">R&sup2; 0.669 &middot; MAPE 18.7% &middot; Codespace deployment, not production</div>
+    </article>
   </div>
 </section>
 
@@ -470,7 +491,7 @@ footer .fine{margin-top:40px; font-family:var(--font-mono); font-size:.72rem; co
       <div class="edu-item">
         <div class="deg">Project Management Professional (PMP)</div>
         <div class="inst">Project Management Institute</div>
-        <div class="meta">Issued March 2024 &middot; expires March 2027</div>
+        <div class="meta">Issued March 2024 &middot; expires March 2030</div>
       </div>
     </div>
   </div>
